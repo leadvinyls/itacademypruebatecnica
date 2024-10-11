@@ -1,4 +1,4 @@
-# Para ver el resultado de mi prueba tecnica solo hace falta entrar al siguiente enlace [Prueba Tecnica Frontend](143.47.53.65)
+# Para ver el resultado de mi prueba tecnica solo hace falta entrar al siguiente enlace [Prueba Tecnica Frontend](http://143.47.53.65)
 
 # En el caso de que se quiera ver mi proyecto a fondo, las instrucciones para ejecutar en localhost son las oficiales de react:
 
