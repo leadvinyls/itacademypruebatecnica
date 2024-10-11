@@ -1,4 +1,5 @@
 # Para ver el resultado de mi prueba tecnica solo hace falta entrar al siguiente enlace [leadvinyls.blog](http://leadvinyls.blog)
+## es una pagina personal por lo que no tiene certificado ssl aun, hay que entrar usando el protocolo http, ya que no funciona con https
 
 # En el caso de que se quiera ver mi proyecto a fondo, las instrucciones para ejecutar en localhost son las oficiales de react:
 
