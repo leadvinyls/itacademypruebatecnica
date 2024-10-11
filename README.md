@@ -1,3 +1,7 @@
+# Para ver el resultado de mi prueba tecnica solo hace falta entrar al siguiente enlace [Prueba Tecnica Frontend](http://leadvinyls.blog/)
+
+# En el caso de que se quiera ver mi proyecto a fondo, las instrucciones para ejecutar en localhost son las oficiales de react:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
