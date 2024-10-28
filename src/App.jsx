@@ -51,10 +51,16 @@ function App() {
     }, [endpoint]);
 
     useEffect(() => {
-        if (!query) {
-            setEndpoint(url);
+        // Ponemos un timer de 0.5 segundos. Pasados los 0.5 segundos, se hará la búsqueda
+        // automáticamente
+        const cooldown = setTimeout(() => {
+            setEndpoint(query === "" ? url : `${url}/?name=${query}`);
             getCharacters();
-        }
+        }, 500)
+        // si este hook se llama otra vez (al cambiar el valor de query), se llamará la 
+        // cleanup function, que en este caso resetea el timer para no enviar nada mientras
+        // el usuario siga escribiendo.
+        return () => clearTimeout(cooldown)
     }, [query]);
 
     return (
