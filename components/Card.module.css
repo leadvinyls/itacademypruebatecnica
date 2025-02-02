@@ -1,6 +1,4 @@
-@import url("../index.css");
-
-article.Card {
+.Card {
     position: relative;
     display: flex;
     gap: 10px;
@@ -15,12 +13,11 @@ article.Card {
     transition: all 0.3s ease;
     overflow: hidden;
 
-    img {
-        width: 100px;
+    .img {
         border-radius: 10px;
     }
 
-    & > span {
+    &>.span {
         color: var(--secondary-background-color);
         display: flex;
         justify-content: center;

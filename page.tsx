@@ -6,7 +6,7 @@ import styles from './page.module.css';
 import Card from './components/Card';
 import { useEffect, useState } from 'react';
 
-export default function Rickandmortyapp() {
+export default function Rickandmortyappp() {
 	const url = 'https://rickandmortyapi.com/api/character';
 	const [endpoint, setEndpoint] = useState(url);
 	const [query, setQuery] = useState('');
